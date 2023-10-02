@@ -1,7 +1,5 @@
 # Welcome to Remix Template for Firebase Auth!
 
-- [Remix Docs](https://remix.run/docs)
-
 - Update the firebase server and client Credentials to connect with your firebase project.
 
 In the `firebase.server.ts` update the following:
@@ -23,6 +21,8 @@ And, in the `firebase.client.ts`, the following:
 ```
 
 Then you ready to go!!
+
+- [Remix Docs](https://remix.run/docs)
 
 ## Development
 
