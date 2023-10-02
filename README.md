@@ -1,6 +1,28 @@
-# Welcome to Remix!
+# Welcome to Remix Template for Firebase Auth!
 
 - [Remix Docs](https://remix.run/docs)
+
+- Update the firebase server and client Credentials to connect with your firebase project.
+
+In the `firebase.server.ts` update the following:
+
+```sh
+    credential: cert(require("../<path-to-service-account-key>.json")),
+```
+
+And, in the `firebase.client.ts`, the following:
+
+```sh
+    apiKey: "...",
+    authDomain: "...",
+    projectId: "...",
+    storageBucket: "...",
+    messagingSenderId: "...",
+    appId: "...",
+    measurementId: "..."
+```
+
+Then you ready to go!!
 
 ## Development
 
